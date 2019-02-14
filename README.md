@@ -2,7 +2,7 @@
 (Testing in Ubuntu 16.04 in GCE is OK   )  
 
 ## Install
-./install.sh 
+./install.sh   
 By the way, if you need to install google-chrome-stable, please don't forget to use  $ sudo   
 ## Usage get-google-images [keyword] [limit]  
 After you finishing installation. You  can start to use the command.  
