@@ -15,6 +15,7 @@ fi
 
 #Install procedure
 sudo apt-get install unzip wget git
+sudo apt-get install python-setuptools
 mkdir -p ~/pyapp
 cd ~/pyapp
 git clone https://github.com/hardikvasa/google-images-download.git
@@ -33,7 +34,7 @@ cd $BACKDIR
 sudo cp get-google-images.sh /usr/local/bin/
 
 echo "You can use $ get-google-images.sh   to download images"
-echo "for example, $ get-google-images.sh \"facebook\" 100 "
-
+echo "for example, $ get-google-images.sh \"facebook\" 20 "
+echo "Then you can see downloads folder on your current folder. There are files in that folder"
 
 exit 0
