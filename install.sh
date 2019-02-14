@@ -14,6 +14,7 @@ if ! dpkg -l google-chrome-stable ; then
 fi
 
 #Install procedure
+sudo apt-get install unzip wget git
 mkdir -p ~/pyapp
 cd ~/pyapp
 git clone https://github.com/hardikvasa/google-images-download.git
@@ -24,14 +25,15 @@ wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 sudo cp chromedriver /usr/local/bin/
 
-sudo cp get-google-images.sh /usr/local/bin/
+#sudo cp get-google-images.sh /usr/local/bin/
 
 BACKDIR=$(cat /tmp/curdir.txt) 
 cd $BACKDIR
 
+sudo cp get-google-images.sh /usr/local/bin/
 
-echo "You can use `get-google-images.sh` to download images"
-echo "for example, `get-google-images.sh \"facebook\" 100 `"
+echo "You can use $ get-google-images.sh   to download images"
+echo "for example, $ get-google-images.sh \"facebook\" 100 "
 
 
 exit 0
