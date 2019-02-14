@@ -7,7 +7,7 @@ echo $CURDIR > /tmp/curdir.txt
 
 #Precondition check for installation
 if ! dpkg -l google-chrome-stable ; then 
-	echo "Please call ./install-google-chrome-stable.sh to install chrome"
+	echo "Please call `sudo ./install-google-chrome-stable.sh` to install chrome"
 	BACKDIR=$(cat /tmp/curdir.txt) 
 	cd $BACKDIR
 	exit 1
