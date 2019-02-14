@@ -14,8 +14,9 @@ if ! dpkg -l google-chrome-stable ; then
 fi
 
 #Install procedure
-sudo apt-get install unzip wget git
-sudo apt-get install python-setuptools
+sudo apt-get install unzip wget git # unzip tool to unzup file  when wget
+sudo apt-get install python-setuptools # for installation in google-images-download.git
+sudo apt-get install graphicsmagick-imagemagick-compat  # for using identify command to check correctness of picture
 mkdir -p ~/pyapp
 cd ~/pyapp
 git clone https://github.com/hardikvasa/google-images-download.git
