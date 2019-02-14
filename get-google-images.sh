@@ -22,6 +22,12 @@ if ! which googleimagesdownload; then
 	exit 1
 fi
 
+if [ $# -ne 2 ] ; then 
+	echo "Command is like the followign"
+	echo "get-google-images.sh [keyword] [number]"
+	exit 1
+fi 
+
 googleimagesdownload --keywords "$1" --limit $2 --chromedriver=$(which chromedriver)
 
 
