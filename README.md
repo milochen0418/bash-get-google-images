@@ -16,3 +16,6 @@ Then you can see ./downloads folder. And there are 30 pictures in it
 backup folder store backup files for your installation.  
 If you install failed, please consider change script and use the files in that folder  
 
+## utility folder
+The script in utility folder will you to process downloaded image.   
+It's can help you to rename and clean crashed files  
