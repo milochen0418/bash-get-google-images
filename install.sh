@@ -17,6 +17,7 @@ fi
 sudo apt-get install unzip wget git # unzip tool to unzup file  when wget
 sudo apt-get install python-setuptools # for installation in google-images-download.git
 sudo apt-get install graphicsmagick-imagemagick-compat  # for using identify command to check correctness of picture
+rm -rf ~/pyapp
 mkdir -p ~/pyapp
 cd ~/pyapp
 git clone https://github.com/hardikvasa/google-images-download.git
