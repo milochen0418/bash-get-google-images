@@ -16,8 +16,8 @@ $ get-google-images facebook
 Then you can see ./downloads folder. And there are 20 pictures in it    
 
 ## Demo pictures
-![image](https://cdn.jsdelivr.net/gh/milochen0418/github-readme-material@master/bash-get-google-images/picture_1.jpg)
-![image](https://cdn.jsdelivr.net/gh/milochen0418/github-readme-material@master/bash-get-google-images/picture_2.jpg)
+![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-get-google-images/picture_1.jpg)
+![image](https://github.com/milochen0418/github-readme-material/blob/master/bash-get-google-images/picture_2.jpg)
 
 
 ## backup folder 
