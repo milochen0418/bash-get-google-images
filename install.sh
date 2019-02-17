@@ -35,8 +35,8 @@ cd $BACKDIR
 
 sudo cp get-google-images.sh /usr/local/bin/get-google-images
 
-echo "You can use $ get-google-images.sh   to download images"
-echo "for example, $ get-google-images.sh \"facebook\" 20 "
+echo "You can use $ get-google-images  to download images"
+echo "for example, $ get-google-images \"facebook\" 20 "
 echo "Then you can see downloads folder on your current folder. There are files in that folder"
 
 exit 0
