@@ -37,16 +37,26 @@ if ! which googleimagesdownload; then
 	exit 1
 fi
 
-if [ $# -ne 2 ] ; then 
+NUMBER=20
+KEYWORD=""
+if [ $# -gt 1 ] ; then 
+	KEYWORD=$1
+	NUMBER=$2	
+fi
+if [ $# -eq 1 ]; then
+	KEYWORD=$1
+fi
+if [ $# -eq 0 ]; then
 	echo "Command is like the followign"
-	echo "get-google-images.sh [keyword] [number]"
+	echo "get-google-images [number=20]"
+	echo "If you need , please see the detail by  $ get-google-images --help "
 	exit 1
-fi 
+fi
 
-echo "keyword : $1"
-echo "number : $2"
+echo "keyword : $KEYWORD"
+echo "number : $NUMBER"
 
-googleimagesdownload --keywords "$1" --limit $2 --chromedriver=$(which chromedriver)
+googleimagesdownload --keywords "$KEYWORD" --limit $NUMBER --chromedriver=$(which chromedriver)
 
 
 
