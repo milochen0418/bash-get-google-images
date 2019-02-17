@@ -33,7 +33,7 @@ sudo cp chromedriver /usr/local/bin/
 BACKDIR=$(cat /tmp/curdir.txt) 
 cd $BACKDIR
 
-sudo cp get-google-images.sh /usr/local/bin/
+sudo cp get-google-images.sh /usr/local/bin/get-google-images
 
 echo "You can use $ get-google-images.sh   to download images"
 echo "for example, $ get-google-images.sh \"facebook\" 20 "
