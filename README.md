@@ -14,6 +14,12 @@ Then you can see ./downloads folder. And there are 30 pictures in it
   
 $ get-google-images facebook  
 Then you can see ./downloads folder. And there are 20 pictures in it    
+
+## Demo pictures
+![image](https://drive.google.com/file/d/1VzUKRoMd4SmtLw3zBg-9ktobqSWGYiCg/view?usp=sharing)
+![image](https://drive.google.com/file/d/1H1zUNPij0jCIO8mX5OTRDyLBWhQsakeB/view?usp=sharing)
+
+
 ## backup folder 
 backup folder store backup files for your installation.  
 If you install failed, please consider change script and use the files in that folder  
@@ -23,5 +29,5 @@ The script in utility folder will you to process downloaded image.
 It's can help you to rename and clean crashed files  
 
 ## youtube test in readme
-[![Fibonacci RMI Java EE](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://www.youtube.com/watch?v=nX_inqaAzOI&feature=youtu.be&hd=1 "RMI Fibonacci Java")
+[![YouTube TEST](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://www.youtube.com/watch?v=nX_inqaAzOI&feature=youtu.be&hd=1 "TEST:RMI Fibonacci Java")
 
